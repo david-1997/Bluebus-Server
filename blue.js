@@ -704,7 +704,7 @@ app.delete('/admin/deletebus/:regno', (req, res) => {
     })
 })
 
-const backendPort = PROCESS.env.port;
+const backendPort = process.env.PORT;
 app.listen(backendPort, () => {
     console.log("port in 3000");
 })
