@@ -4,8 +4,9 @@
   "description": "",
   "main": "blue.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node blue.js"
+    "start": "node blue.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "",
   "license": "ISC",
